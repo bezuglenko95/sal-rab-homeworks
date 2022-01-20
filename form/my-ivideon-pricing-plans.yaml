@@ -2,33 +2,33 @@
 
 'www/protected/l10n/messages/{lang}/api.php':
 
-  'error.bad_tariff': 'Указанный тариф не найден или не существует.'
+  'error.bad_tariff': 'Указанная подписка не найдена или не существует.'
 
-  'error.deprecated': 'Услуга больше не предоставляется.'
+  'error.deprecated': 'Сервис больше не предоставляется.'
 
-  'error.roster.share.not_paid': 'Услуга передачи прав не подключена.'
+  'error.roster.share.not_paid': 'Передача прав не подключена.'
 
-  'error.roster.share.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите на странице «Мои услуги».'
+  'error.roster.share.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите на странице «Мои опции».'
 
-  'error.roster.invites.put.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите в информации о своём тарифе.'
+  'error.roster.invites.put.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите в информации о своей подписке.'
 
 # --------------------------------------------------------------------------------------------------
 
 'www/protected/l10n/messages/{lang}/billing.php':
 
-  'tariff_manager.page.title': 'Мои услуги'
+  'tariff_manager.page.title': 'Мои опции'
 
   'fill.sections.acts': 'Последние акты об оказанных услугах'
 
   'fill.sections.acts.transaction_history_warning': 'Обратите внимание, что в актах об оказанных услугах предоставляется информация о сумме потребления средств по подпискам. Поступление средств, фактическая стоимость приобретённых подписок, возвраты средств отображаются в истории платежей.'
 
-  'fill.tariffs_button': 'Подключить и оплатить услуги'
+  'fill.tariffs_button': 'Подключить и оплатить опции'
 
-  'account_deactivated.title': 'Услуги отключены'
+  'account_deactivated.title': 'Опции отключены'
 
   'account_deactivated.message': "
 
-    \t\t<p>Средств на вашем счёте недостаточно для оплаты. Предоставление всех услуг на вашем аккаунте было приостановлено.</p>"
+    \t\t<p>Средств на вашем счёте недостаточно для оплаты. Предоставление всех опций на вашем аккаунте было приостановлено.</p>"
 
   'account_deactivated.how_to_reactivate': "
 
@@ -38,77 +38,77 @@
 
     \t\t\t<li>Пополнить счёт на сумму ежедневной оплаты ({period_cost});</li>
 
-    \t\t\t<li>Отключить все услуги и настроить свой тариф заново.</li>
+    \t\t\t<li>Отключить все опции и настроить свою подписку заново.</li>
 
     \t\t</ul>"
 
   'account_deactivated.service_payments_warning': "
 
-    \t\t<p><b>Пожалуйста, учтите</b>, что некоторые услуги предполагают плату за подключение. Если такую услугу отключить, плата за её подключение <b>не будет возвращена</b>. Если вы хотите избежать этого, пополните свой счёт.</p>"
+    \t\t<p><b>Пожалуйста, учтите</b>, что некоторые опции предполагают плату за подключение. Если такую опцию отключить, плата за её подключение <b>не будет возвращена</b>. Если вы хотите избежать этого, пополните свой счёт.</p>"
 
-  'account_deactivated.disable_services.confirm': 'Все услуги на вашем аккаунте будут отключены. Вы уверены?'
+  'account_deactivated.disable_services.confirm': 'Все опции на вашем аккаунте будут отключены. Вы уверены?'
 
-  'account_deactivated.disable_services.success': 'Услуги отключены. Аккаунт активирован.'
+  'account_deactivated.disable_services.success': 'Опции отключены. Аккаунт активирован.'
 
-  'account_deactivated.disable_services': 'Отключить все услуги'
+  'account_deactivated.disable_services': 'Отключить все опции'
 
-  'fill.cyberplat.cheque.field.paymentdetails': 'Описание услуг'
+  'fill.cyberplat.cheque.field.paymentdetails': 'Описание опций'
 
-  'error.general.service_unavailable': 'Услуга недоступна для подключения'
+  'error.general.service_unavailable': 'Опция недоступна для подключения'
 
-  'error.general.service_unsupported': 'Услуга не существует или не поддерживается'
+  'error.general.service_unsupported': 'Опция не существует или не поддерживается'
 
-  'error.general.service_deactivation_unsupported': 'Отключение услуги недоступно'
+  'error.general.service_deactivation_unsupported': 'Отключение опции недоступно'
 
-  'error.general.service_nonrecurring': 'Услуга непериодическая'
+  'error.general.service_nonrecurring': 'Опция непериодическая'
 
-  'error.general.tariff.not_found': 'Тариф не найден'
+  'error.general.tariff.not_found': 'Подписка не найден'
 
-  'access_denied.managed_account': 'Для настройки услуг обратитесь к вашему интегратору'
+  'access_denied.managed_account': 'Для настройки опций обратитесь к вашему интегратору'
 
 # --------------------------------------------------------------------------------------------------
 
 'www/protected/l10n/messages/{lang}/camera-plan-manager.licenses.php':
 
-  'operation_info.plan': '<b>Тариф:</b> {plan}'
+  'operation_info.plan': '<b>Подписка:</b> {plan}'
 
-  'step.confirm.plan_will_be_replaced': 'На камере {camera} уже используется тариф {current_plan}. Активировав лицензию, вы замените тариф на {new_plan}.'
+  'step.confirm.plan_will_be_replaced': 'На камере {camera} уже используется подписка {current_plan}. Активировав лицензию, вы замените подписку на {new_plan}.'
 
-  'step.confirm.plan_will_be_prolonged': 'На камере {camera} уже используется тариф {current_plan}. Активировав лицензию, вы продлите действие тарифа.'
+  'step.confirm.plan_will_be_prolonged': 'На камере {camera} уже используется подписка {current_plan}. Активировав лицензию, вы продлите действие подписки.'
 
-  'error.code.cant_use_code_for_prolongation.already_activated': 'Вы не можете использовать ранее активированный код для продления тарифа на камере.'
+  'error.code.cant_use_code_for_prolongation.already_activated': 'Вы не можете использовать ранее активированный код для продления подписки на камере.'
 
 # --------------------------------------------------------------------------------------------------
 
 'www/protected/l10n/messages/{lang}/camera.php':
 
-  'label.services_disabled.no_camera_tariff': 'выберите тариф'
+  'label.services_disabled.no_camera_tariff': 'выберите подписку'
 
 # --------------------------------------------------------------------------------------------------
 
 'www/protected/l10n/messages/{lang}/ivideon.AccountPlanManager.php':
 
-  'confirm.message.monthly_and_switch_cost': '<p>При нажатии на кнопку «Подтвердить» с вашего счёта будет списана <b>плата за подключение новых услуг</b> в размере <em>{costSwitch:currency}</em></p><p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em><p>'
+  'confirm.message.monthly_and_switch_cost': '<p>При нажатии на кнопку «Подтвердить» с вашего счёта будет списана <b>плата за подключение новых опций</b> в размере <em>{costSwitch:currency}</em></p><p>Ежемесячная плата за подключенные опции составит <em>{cost:currency}</em><p>'
 
-  'confirm.message.monthly_cost_only': '<p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em></p>'
+  'confirm.message.monthly_cost_only': '<p>Ежемесячная плата за подключенные опции составит <em>{cost:currency}</em></p>'
 
-  'error.tariff_plan.save.not_found.server': 'Сервер <b>{server}</b> не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+  'error.tariff_plan.save.not_found.server': 'Сервер <b>{server}</b> не найден. Возможно, он был удален, пока вы редактировали свои опции.'
 
-  'error.tariff_plan.save.not_found.server.unknown': 'Сервер не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+  'error.tariff_plan.save.not_found.server.unknown': 'Сервер не найден. Возможно, он был удален, пока вы редактировали свои опции.'
 
-  'error.tariff_plan.save.not_found.camera': 'Камера <b>{camera}</b> (сервер <b>{server}</b>) не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+  'error.tariff_plan.save.not_found.camera': 'Камера <b>{camera}</b> (сервер <b>{server}</b>) не найдена. Возможно, она была удалена, пока вы редактировали свои опции.'
 
-  'error.tariff_plan.save.not_found.camera.unknown': 'Камера не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+  'error.tariff_plan.save.not_found.camera.unknown': 'Камера не найдена. Возможно, она была удалена, пока вы редактировали свои опции.'
 
-  'error.tariff_plan.save.not_found.offer': 'Выбранная услуга не найдена'
+  'error.tariff_plan.save.not_found.offer': 'Выбранная опция не найдена'
 
-  'error.tariff_plan.save.not_found.tariff': 'Выбранный тарифный план не найден.'
+  'error.tariff_plan.save.not_found.tariff': 'Выбранная подписка не найдена.'
 
-  'error.tariff_plan.save.quota_exhausted': 'Исчерпана квота на одну из выбранных услуг'
+  'error.tariff_plan.save.quota_exhausted': 'Исчерпана квота на одну из выбранных опций'
 
-  'error.tariff_plan.save.not_enough_minerals': 'На вашем счёте недостаточно средств для подключения новых услуг.'
+  'error.tariff_plan.save.not_enough_minerals': 'На вашем счёте недостаточно средств для подключения новых опций.'
 
-  'error.tariff_plan.save.not_enough_minerals.fix.fill': 'Вы должны либо <a target="_blank" href="{:url(billing/fill)}">пополнить баланс</a>, либо отключить часть услуг.'
+  'error.tariff_plan.save.not_enough_minerals.fix.fill': 'Вы должны либо <a target="_blank" href="{:url(billing/fill)}">пополнить баланс</a>, либо отключить часть опций.'
 
   'error.tariff_plan.save.remove_transferred_access': 'Тариф, который вы выбрали, ограничивает передачу прав на камеру другим пользователям. Ряд ваших камер превышает это ограничение: {cameras}'
 
