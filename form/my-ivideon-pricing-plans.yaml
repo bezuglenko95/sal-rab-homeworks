@@ -1,0 +1,977 @@
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/api.php':
+
+  'error.bad_tariff': 'Указанный тариф не найден или не существует.'
+
+  'error.deprecated': 'Услуга больше не предоставляется.'
+
+  'error.roster.share.not_paid': 'Услуга передачи прав не подключена.'
+
+  'error.roster.share.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите на странице «Мои услуги».'
+
+  'error.roster.invites.put.quota_exhausted': 'Достигнут лимит передачи прав. Подробности смотрите в информации о своём тарифе.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/billing.php':
+
+  'tariff_manager.page.title': 'Мои услуги'
+
+  'fill.sections.acts': 'Последние акты об оказанных услугах'
+
+  'fill.sections.acts.transaction_history_warning': 'Обратите внимание, что в актах об оказанных услугах предоставляется информация о сумме потребления средств по подпискам. Поступление средств, фактическая стоимость приобретённых подписок, возвраты средств отображаются в истории платежей.'
+
+  'fill.tariffs_button': 'Подключить и оплатить услуги'
+
+  'account_deactivated.title': 'Услуги отключены'
+
+  'account_deactivated.message': "
+
+    \t\t<p>Средств на вашем счёте недостаточно для оплаты. Предоставление всех услуг на вашем аккаунте было приостановлено.</p>"
+
+  'account_deactivated.how_to_reactivate': "
+
+    \t\t<p>Продолжить использование вашего аккаунта можно двумя способами:</p>
+
+    \t\t<ul>
+
+    \t\t\t<li>Пополнить счёт на сумму ежедневной оплаты ({period_cost});</li>
+
+    \t\t\t<li>Отключить все услуги и настроить свой тариф заново.</li>
+
+    \t\t</ul>"
+
+  'account_deactivated.service_payments_warning': "
+
+    \t\t<p><b>Пожалуйста, учтите</b>, что некоторые услуги предполагают плату за подключение. Если такую услугу отключить, плата за её подключение <b>не будет возвращена</b>. Если вы хотите избежать этого, пополните свой счёт.</p>"
+
+  'account_deactivated.disable_services.confirm': 'Все услуги на вашем аккаунте будут отключены. Вы уверены?'
+
+  'account_deactivated.disable_services.success': 'Услуги отключены. Аккаунт активирован.'
+
+  'account_deactivated.disable_services': 'Отключить все услуги'
+
+  'fill.cyberplat.cheque.field.paymentdetails': 'Описание услуг'
+
+  'error.general.service_unavailable': 'Услуга недоступна для подключения'
+
+  'error.general.service_unsupported': 'Услуга не существует или не поддерживается'
+
+  'error.general.service_deactivation_unsupported': 'Отключение услуги недоступно'
+
+  'error.general.service_nonrecurring': 'Услуга непериодическая'
+
+  'error.general.tariff.not_found': 'Тариф не найден'
+
+  'access_denied.managed_account': 'Для настройки услуг обратитесь к вашему интегратору'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/camera-plan-manager.licenses.php':
+
+  'operation_info.plan': '<b>Тариф:</b> {plan}'
+
+  'step.confirm.plan_will_be_replaced': 'На камере {camera} уже используется тариф {current_plan}. Активировав лицензию, вы замените тариф на {new_plan}.'
+
+  'step.confirm.plan_will_be_prolonged': 'На камере {camera} уже используется тариф {current_plan}. Активировав лицензию, вы продлите действие тарифа.'
+
+  'error.code.cant_use_code_for_prolongation.already_activated': 'Вы не можете использовать ранее активированный код для продления тарифа на камере.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/camera.php':
+
+  'label.services_disabled.no_camera_tariff': 'выберите тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.AccountPlanManager.php':
+
+  'confirm.message.monthly_and_switch_cost': '<p>При нажатии на кнопку «Подтвердить» с вашего счёта будет списана <b>плата за подключение новых услуг</b> в размере <em>{costSwitch:currency}</em></p><p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em><p>'
+
+  'confirm.message.monthly_cost_only': '<p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em></p>'
+
+  'error.tariff_plan.save.not_found.server': 'Сервер <b>{server}</b> не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.server.unknown': 'Сервер не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.camera': 'Камера <b>{camera}</b> (сервер <b>{server}</b>) не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.camera.unknown': 'Камера не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.offer': 'Выбранная услуга не найдена'
+
+  'error.tariff_plan.save.not_found.tariff': 'Выбранный тарифный план не найден.'
+
+  'error.tariff_plan.save.quota_exhausted': 'Исчерпана квота на одну из выбранных услуг'
+
+  'error.tariff_plan.save.not_enough_minerals': 'На вашем счёте недостаточно средств для подключения новых услуг.'
+
+  'error.tariff_plan.save.not_enough_minerals.fix.fill': 'Вы должны либо <a target="_blank" href="{:url(billing/fill)}">пополнить баланс</a>, либо отключить часть услуг.'
+
+  'error.tariff_plan.save.remove_transferred_access': 'Тариф, который вы выбрали, ограничивает передачу прав на камеру другим пользователям. Ряд ваших камер превышает это ограничение: {cameras}'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.AccountPlanManagerInfo.php':
+
+  'notes.payment_period': 'Списание средств со счёта производится ежедневно в размере 1/30 стоимости услуг.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.AccountPlanManagerView.php':
+
+  'title': 'Мои услуги'
+
+  'tariff_plan.title': 'Тарифный план'
+
+  'services.roster.title': 'Услуги для камер'
+
+  'info.disabled_camera.max_enabled': '(макс. камер на текущем тарифе: <b>{max}</b>)'
+
+  'info.service_payment': 'Плата за подключение услуги: <b>{cost:currency}</b>'
+
+  'info.service_payment.hint': 'При подключении этой услуги с вашего счёта будет единократно списана фиксированная сумма.'
+
+  'batch.not_all_cameras_affected': 'Не удалось подключить услугу ко всем камерам из-за ограничений, действующих на текущем тарифе.'
+
+  'cost.current.hint': 'Списание средств со счёта производится ежедневно в размере 1/30 стоимости услуг.'
+
+  'cost.switch': 'Плата за подключение услуг:'
+
+  'cost.switch.hint': 'Плата за подключение новых услуг взимается однократно при сохранении тарифа. Через сутки после этого с вашего счёта начнет ежедневно списываться дневная стоимость услуг. При смене тарифного плана переподключаются все услуги.'
+
+  'upgrade': 'перейти на тариф «{tariff}»'
+
+  'upgrade.hint': 'Перейдите на другой тариф, чтобы получить доступ к этой функции.'
+
+  'tariff_switch.some_services_cancelled': 'Некоторые услуги недоступны на этом тарифе. Они были отключены.'
+
+  'tariff_switch.more_info': 'подробнее<br/>о тарифах'
+
+  'service_unavailable.reason.cost.hint': 'Опция доступна на других тарифах'
+
+  'service_unavailable.reason.quota.hint': 'Допустимое количество подключений данной услуги исчерпано.'
+
+  'warning.readonly': 'управление услугами заблокировано'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.AccountTypeSwitchWidget.php':
+
+  'personal_to_business.title': 'Переход на тарифы для бизнеса'
+
+  'personal_to_business.text': 'Ваш аккаунт предназначен для личного использования. Если вы хотите использовать {:brand_name}, как юридическое лицо, или заинтересованы в расширенных возможностях нашего сервиса, перейдите на {pricing_business_url_}тарифы для бизнеса{_pricing_business_url}.'
+
+  'personal_to_business.confirm': '<p>Вы собираетесь изменить тип вашего аккаунта и перейти на {pricing_business_url_}тарифы для бизнеса{_pricing_business_url}.</p><p>Ранее оплаченные вами камеры продолжат работать на старых тарифах до окончания оплаченного срока. После этого их необходимо будет переключить на другой тариф.<br/>Камеры, работающие на бесплатном тарифе, будут отключены.</p>'
+
+  'business_to_personal.title': 'Переход на тарифы для дома'
+
+  'business_to_personal.text': 'Ваш аккаунт предназначен для корпоративного использования. Если вы хотите использовать {:brand_name}, как частное лицо, перейдите на {pricing_personal_url_}тарифы для дома{_pricing_personal_url}.'
+
+  'business_to_personal.confirm': '<p>Вы собираетесь изменить тип вашего аккаунта и перейти на {pricing_personal_url_}тарифы для дома{_pricing_personal_url}.</p><p>Ранее оплаченные вами камеры продолжат работать на старых тарифах до окончания оплаченного срока. После этого их необходимо будет переключить на другой тариф.</p>'
+
+  'to_current_plans.title': 'Переход на актуальные тарифы'
+
+  'to_current_plans.text': 'Если вы хотите использовать {:brand_name}, как юридическое лицо, или заинтересованы в расширенных возможностях нашего сервиса, перейдите {pricing_url_}на актуальные тарифы{_pricing_url}.'
+
+  'to_current_plans.confirm': '<p>Вы собираетесь изменить тип вашего аккаунта и перейти {pricing_url_}на актуальные тарифы.{_pricing_url}</p><p>Это действие необратимо.</p><p>Ранее оплаченные вами камеры продолжат работать на старых тарифах до окончания оплаченного срока. После этого их необходимо будет переключить на другой тариф.</p><p>Камеры, работающие на бесплатном тарифе, будут отключены.</p>'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.BillingTypeSwitchWidget.php':
+
+  'current.tariffs_account.info.text': '<p>В вашем аккаунте используется тарифный план <b>Профессиональный</b>. Он даёт возможность детальной настройки используемых услуг.</p>'
+
+  'current.tariffs_camera.info.text': '<p>В вашем аккаунте используются стандартные тарифные планы. Они позволяют просто и быстро расширить возможности ваших камер.</p>'
+
+  'switch.tariffs_account.info.text': '<p>Тарифный план <b>Профессиональный</b> предназначен для опытных пользователей, которым требуется расширенное управление услугами, а также для компаний (юридических лиц), желающих заключить договор, производить оплату услуг на расчетный счет и получать закрывающие документы (с подробной информацией о тарифах вы можете ознакомиться <a class="iv-link" href="https://go.ivideon.com/?target=tariffs" target="_blank">на нашем сайте</a>).</p>'
+
+  'switch.tariffs_account.confirm.text': '<p>Вы собираетесь перевести ваш аккаунт на тарифный план <b>Профессиональный</b>. Этот тарифный план предназначен для опытных пользователей, которым требуется расширенное управление услугами, а также для компаний (юридических лиц), желающих заключить договор, производить оплату услуг на расчетный счет и получать закрывающие документы (с подробной информацией о тарифах вы можете ознакомиться <a class="iv-link" href="https://go.ivideon.com/?target=tariffs" target="_blank">на нашем сайте</a>).</p>
+
+    <p>Все камеры, подключенные к вашему личному кабинету — как существующие, так и новые — будут тарифицироваться в соответствии с правилами тарифного плана <b>Профессиональный</b>. Все оплаченные камеры будут отключены, а неиспользованные средства будут возвращены на счет вашего аккаунта согласно Условиям смены и отключения тарифа.</p>'
+
+  'switch.tariffs_camera.info.text': '<p>Если вам подойдет более простая настройка услуг, вы можете перевести ваш аккаунт на стандартные тарифные планы.</p>'
+
+  'switch.tariffs_camera.confirm.text': '<p>Вы собираетесь перевести ваш аккаунт на стандартные тарифные планы. Пожалуйста, учтите, что все услуги, подключенные сейчас на ваших камерах, будут при этом отключены.</p>'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerBranded.php':
+
+  'wizard.selectPackage': 'Выбор тарифа'
+
+  'wizard.changePackage': 'Изменить тариф'
+
+  'wizard.cancelPackage': 'Отключить тариф'
+
+  'wizard.settings': 'Тарифный план'
+
+  'select_package.steps.selectPlan': 'Выберите тарифный план'
+
+  'btn.change': 'Выбрать другой тариф'
+
+  'btn.cancel': 'Отключить тариф'
+
+  'confirm.your_selection.trial': 'Вы подключаете тарифный план <b>{plan}</b> на <b>{period}</b> в <b>испытательном режиме</b>.'
+
+  'confirm.your_selection.no_period': 'Вы выбрали тарифный план <b>{plan}</b>.'
+
+  'confirm.your_selection.with_period': 'Вы выбрали тарифный план <b>{plan}</b> с оплатой за <b>{period}</b>.'
+
+  'confirm.refund': 'На ваш счёт будет возвращен остаток неиспользованных средств по текущему тарифу в размере <b>{cost:currency}</b>'
+
+  'cancel_package.action': 'Вы собираетесь отключить действующий на камере тарифный план <b>{plan}</b>.'
+
+  'cant_set.reason.account_limit.hint': 'Допустимо не более {limit:plural({limit} камеры,{limit} камер)} с этим тарифом на аккаунт.'
+
+  'camera_list.select_package': 'выберите тариф'
+
+  'mode.readonly': 'Управление тарифным планом запрещено.'
+
+  'plan_not_found': 'Тариф не найден.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerCommons.php':
+
+  'package_change_terms.title': 'Условия смены и отключения тарифа'
+
+  'package_change_terms.lower_period_day_round.text': "
+
+    \t\t<p>При смене или отключении тарифа вам возвращается плата за время, которое вы не использовали. При расчете:</p>
+
+    \t\t<ul>
+
+    \t\t\t<li>Срок использования тарифа рассчитывается в днях с округлением вверх.</li>
+
+    \t\t\t<li>Используется стоимость тарифа при оплате за месяц.</li>
+
+    \t\t</ul>
+
+    \t"
+
+  'package_change_terms.lower_period_month_round.text': "
+
+    \t\t<p>При смене или отключении тарифа вам возвращается плата за время, которое вы не использовали. При расчете:</p>
+
+    \t\t<ul>
+
+    \t\t\t<li>Срок использования тарифа рассчитывается в месяцах с округлением вверх.</li>
+
+    \t\t\t<li>Используется стоимость тарифа при оплате за месяц.</li>
+
+    \t\t</ul>
+
+    \t"
+
+  'package_change_terms.used_period_day_round.text': '<p>При смене или отключении тарифа вам возвращается плата за время, которое вы не использовали. Срок использования тарифа рассчитывается в днях с округлением вверх.</p>'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerRedirectMode.php':
+
+  'camera_removal_message': 'Внимание! При удалении камеры подписка удалена не будет и продолжит тарифицироваться в соответствии с текущей стоимостью. Для управления подпиской перейдите по ссылке, указанной ниже.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidget.php':
+
+  'dialog.title': 'Тарифный план'
+
+  'wizard.selectCameras': 'Мои услуги'
+
+  'wizard.selectPlan': 'Выбор тарифа'
+
+  'plan.apply.cancellation': 'Некоторые из выбранных вами камер имеют активные тарифы. Они будут отменены.'
+
+  'plan.auto_management.message.generic': 'Управление тарифом осуществляется сторонним сервисом.'
+
+  'plan.auto_management.message.evotor': '
+
+    Данная камера привязана к кассе Эвотор и поэтому управление тарифом и глубиной архива происходит в личном кабинете <b>Эвотор</b>, на странице приложения <b>{:brand_name}</b>.
+
+    <br />
+
+    <br />
+
+    Если вы не желаете использовать камеру в паре с кассой, то отвяжите её от кассы в разделе <b>Кассы › Настройки</b> и управляйте тарифом в личном кабинете {:brand_name}.
+
+
+    '
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetCameraInfo.php':
+
+  'button.plan_change': 'Выбрать тариф'
+
+  'plan_cancel.button.toggle': 'Отключить тариф'
+
+  'plan_cancel.info.plan': 'Вы собираетесь отключить действующий на камере тариф.'
+
+  'plan_cancel.info.refund': 'На ваш счёт будет возвращен остаток неиспользованных средств по текущему тарифу в размере <b>{refund:currency}</b>'
+
+  'autoprolong_setup.description': 'Для вашего удобства мы можем автоматически продлевать установленный вами тарифный план на данной камере с помощью списания денег с вашего баланса или привязанной к аккаунту банковской карты.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetCameraSelector.php':
+
+  'camera_plan.none': 'Тариф не выбран'
+
+  'camera_plan.auto_management': 'Управление тарифом'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetSelectCameras.php':
+
+  'step.description': 'Выберите камеры, чтобы применить или продлить тарифный план'
+
+  'configure.btn': 'Выбрать тариф'
+
+  'prolong.select_at_least_one_camera': 'Пожалуйста, выберите по&nbsp;крайней мере одну камеру с активной или окончившейся подпиской на платный тарифный план.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetSelectPayment.php':
+
+  'step.description': 'Оплата выбранного тарифа'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetSelectPlan.php':
+
+  'plan_limit.info': 'Тариф {plan} доступен не более, чем для {n:plural({n} камеры,{n} камер,{n} камер,{n} камер)} в рамках одного аккаунта.'
+
+  'plan_limit.current': 'У вас уже {n:plural(подключена {n} камера,подключены {n} камеры,подключено {n} камер,подключено {n} камер)} к тарифу {plan}.'
+
+  'plan_limit.suggestion.another_plan': 'Для новых камер, пожалуйста, воспользуйтесь другим тарифным планом.'
+
+  'plan_limit.suggestion.select_cameras': 'Пожалуйста, выберите {n:plural({n} камеру\, которую,{n} камеры\, которые,{n} камер\, которые,{n} камер\, которые)} вы хотели бы использовать с тарифом {plan}.'
+
+  'plan_limit.suggestion.select_cameras.more': 'Пожалуйста, выберите ещё {n:plural({n} камеру\, которую,{n} камеры\, которые,{n} камер\, которые,{n} камер\, которые)} вы хотели бы использовать с тарифом {plan}.'
+
+  'disabling_extra_service_plans.warning.single_service': 'На следующих камерах установлен тариф с услугой {service}:<br/><br/>{cameras}<br/><br/>Вы уверены, что хотите подключить для них новый тариф {plan}? Это приведет к отключению услуги {service} и удалению привязанных к ней накопленных данных.'
+
+  'disabling_extra_service_plans.warning.multiple_services': 'На следующих камерах установлен тариф с услугами {services}:<br/><br/>{cameras}<br/><br/>Вы уверены, что хотите подключить для них новый тариф {plan}? Это приведет к отключению услуг {services} и удалению привязанных к ним накопленных данным.'
+
+  'disabling_extra_service_plans.button.dont_replace_plans': 'Не заменять тарифы на данных камерах'
+
+  'disabling_extra_service_plans.button.replace_plans': 'Отключить услуги и перейти на новый тариф'
+
+  'trial_cameras_limit.message.trial_unavailable_for_all_cameras': 'Пробный период уже истёк на выбранных вами камерах. Подключение пробного тарифа невозможно.'
+
+  'trial_cameras_limit.message.trial_unavailable_for_cameras': 'Пробный период уже истёк на следующих камерах:<br/><br/>{cameras}<br/><br/>Нажмите <b>Продолжить</b>, чтобы подключить пробный тариф на остальных выбранных вами камерах.'
+
+  'activating_limited_prepaid_plan_first_time.warning': '<p><b>Обратите внимание</b></p><p>После первого подключения выбранный вами тариф будет доступен в течение {days} {days:plural(дня,дней,дней,дней)}. После этого подключить его будет нельзя.</p><p>Если тариф подключить сейчас, он будет доступен до {expiration_date}.</p>'
+
+  'cancelling_limited_prepaid_plan.single_camera': '<p><b>Обратите внимание</b></p><p>На выбранной камере действует тариф, доступ к которому ограничен по времени.</p><p>Срок истекает: <b>{expiration_date:date(long)}</b></p><p>По истечении указанного срока подключить тариф будет нельзя.</p>'
+
+  'cancelling_limited_prepaid_plan.multiple_cameras': '<p><b>Обратите внимание</b></p><p>На одной или нескольких выбранных вами камерах действуют тарифы, доступ к которым ограничен по времени.</p><p>По истечении указанного срока подключить тариф будет нельзя.</p>'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.CameraPlanManagerWidgetSelectProlongPayment.php':
+
+  'plan_info.different_plans': 'Будут продлены ранее установленные тарифы для каждой из&nbsp;выбранных вами камер.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.models.Camera.PublicAccess.php':
+
+  'error.service_not_available.public': 'Услуга "Публичный доступ" недоступна для этой камеры.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.controllers.RosterController.php':
+
+  'server.remove.dlg.forbidden.cameras_with_tariff': 'Удаление сервера {serverName} невозможно, т.к. к нему подключены камеры с платными тарифами. Сначала необходимо удалить эти камеры.'
+
+  'camera_remove_confirm_dialog.loading_error.description': 'При запросе информации о текущем тарифе произошла ошибка. Пожалуйста, {try_again_link_}попробуйте ещё раз{_try_again_link}, или свяжитесь с нашей технической поддержкой по адресу {:support_email_link}.'
+
+  'camera_remove_confirm_dialog.message.tariff': 'Обратите внимание, что к этой камере подключен тариф {planName}.'
+
+  'camera_remove_confirm_dialog.message.prepaid_plan': 'Этот тариф доступен до <b>{expiration_date}</b>. После этого подключить его будет нельзя.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.controllers.TariffPlanController.php':
+
+  'confirm.message.monthly_and_switch_cost': '<p>При нажатии на кнопку «Подтвердить» с вашего счёта будет списана <b>плата за подключение новых услуг</b> в размере <em>{costSwitch:currency}</em></p><p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em><p>'
+
+  'confirm.message.monthly_cost_only': '<p>Ежемесячная плата за подключенные услуги составит <em>{cost:currency}</em></p>'
+
+  'error.tariff_plan.save.not_found.server': 'Сервер <b>{server}</b> не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.server.unknown': 'Сервер не найден. Возможно, он был удален, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.camera': 'Камера <b>{camera}</b> (сервер <b>{server}</b>) не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.camera.unknown': 'Камера не найдена. Возможно, она была удалена, пока вы редактировали свои услуги.'
+
+  'error.tariff_plan.save.not_found.offer': 'Выбранная услуга не найдена'
+
+  'error.tariff_plan.save.not_found.tariff': 'Выбранный тарифный план не найден.'
+
+  'error.tariff_plan.save.quota_exhausted': 'Исчерпана квота на одну из выбранных услуг'
+
+  'error.tariff_plan.save.not_enough_minerals': 'На вашем счёте недостаточно средств для подключения новых услуг.'
+
+  'error.tariff_plan.save.not_enough_minerals.fix.fill': 'Вы должны либо <a class="iv-link" target="_blank" href="{:url(billing/fill)}">пополнить баланс</a>, либо отключить часть услуг.'
+
+  'error.tariff_plan.save.remove_transferred_access': 'Тариф, который вы выбрали, ограничивает передачу прав на камеру другим пользователям. Ряд ваших камер превышает это ограничение: {cameras}'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.models.ServiceRegistry.php':
+
+  'service.archive.hint': 'Опасаетесь потерять архивные видеозаписи? Храните их в облаке {:brand_name}!<br/><br/>Стоимость услуги зависит от размера хранящегося в облаке архива.'
+
+  'service.rights>boost.hint': 'Хотите передать доступ к камере большему числу пользователей, чем доступно на данном тарифе? Просто расширьте лимит на передачу прав на данной камере.'
+
+  'service.no_tv.hint': 'Если вы сделали свою камеру публичной, она будет отображаться в нашем каталоге публичных камер — <b>Ivideon TV</b>. C Ivideon TV вашу публичную камеру увидит ещё больше людей. А если при публикации камеры вы укажете ссылку на свой сайт — к вам придет дополнительная аудитория. Впрочем, если вы не хотите, чтобы ваша камера попала в Ivideon TV — исключите её из каталога с помощью этой услуги.'
+
+  'service.embed_logo.hint': 'Воспользуйтесь этой услугой, если вы опубликовали видео на своем сайте и хотите убрать из него наш логотип.'
+
+  'service.no_share_button.hint': 'Воспользуйтесь этой услугой, если вы опубликовали видео на своем сайте и хотите убрать из него кнопку <b>&laquo;Поделиться&raquo;</b>.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.views.AccessManager.php':
+
+  'error.quota_exhausted.billver_4': "Не удалось передать права на камеру <b>{camera_name}</b>.
+
+    \t\t<br/>Ваш текущий {tariff_link_}тарифный план{_tariff_link} позволяет передать права на камеру <b>{tariff_limit}</b>&nbsp;{tariff_limit:plural(пользователю,пользователям,пользователям,пользователям)}.
+
+    \t\t<br/>Камера <b>{camera_name}</b> уже передана <b>{shared_cameras_count}</b>&nbsp;{shared_cameras_count:plural(пользователю,пользователям,пользователям,пользователям)}."
+
+  'error.quota_exhausted.billver_5': "Не удалось передать права на камеру <b>{camera_name}</b>.
+
+    \t\t<br/>Камера {camera_name} подключена к тарифному плану {tariff}, позволяющему передать права на камеру <b>{tariff_limit}</b>&nbsp;{tariff_limit:plural(пользователю,пользователям,пользователям,пользователям)}.
+
+    \t\t<br/>При этом она уже передана <b>{shared_cameras_count}</b>&nbsp;{shared_cameras_count:plural(пользователю,пользователям,пользователям,пользователям)}."
+
+  'error.quota_exhausted.camera_limit.personal': 'Вы попытались передать права на аккаунт {user_login}, использующий тарифы для дома.<br/>На этом аккаунте нельзя иметь более <b>{camera_limit}</b>&nbsp;{camera_limit:plural(подключенной камеры,подключённых камер,подключённых камер,подключённых камер)}.'
+
+  'error.access_to_camera.to_business_account_type': 'Вы попытались передать права на аккаунт {user_login}, использующий тарифы для бизнеса.<br/>Камеру с тарифным планом для дома можно передать только на аккаунт, также использующий тарифы для дома.'
+
+  'error.access_to_camera.to_personal_account_type': 'Вы попытались передать права на аккаунт {user_login}, использующий тарифы для дома.<br/>Камеру с тарифным планом для бизнеса можно передать только на аккаунт, также использующий тарифы для бизнеса.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.views.CameraVideoPage.php':
+
+  'services.button.tooltip': 'Услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.my.views.ServerPage.php':
+
+  'services.button.tooltip': 'Услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.My2CameraCard.php':
+
+  'label.services_disabled.camera_disabled.tooltip': 'Включите камеру на странице «Мои услуги».'
+
+  'label.services_disabled.no_camera_tariff': 'выберите тариф'
+
+  'label.services_disabled.no_camera_tariff.tooltip': 'Пожалуйста, выберите тарифный план для этой камеры.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.MyCameraMenuModel.php':
+
+  'action.camera_plan': 'Тарифный план'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.PaymentWidget.php':
+
+  'payment_systems.bill.preface.switch_to_professional_and_sign_contract': 'Для выставления счётов требуется перевести свой аккаунт на тариф <b>Профессиональный</b> и заключить договор на оказание услуг видеонаблюдения.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.ServiceAccessManager.account.php':
+
+  'fill_upgrade.dialog.title': 'Услуга недоступна'
+
+  'fill_upgrade.dialog.message': 'Услуга «{serviceName:htmlstrip}» недоступна.'
+
+  'fill_upgrade.dialog.title.current_tariff': 'Услуга не подключена'
+
+  'fill_upgrade.dialog.message.current_tariff': 'Подключите услугу «{serviceName:htmlstrip}» на странице «Мои услуги».'
+
+  'fill_upgrade.dialog.message.current_tariff.camera': 'Подключите услугу «{serviceName:htmlstrip}» для этой камеры на странице «Мои услуги».'
+
+  'fill_upgrade.dialog.title.other_tariff': 'Услуга доступна на другом тарифном плане'
+
+  'fill_upgrade.dialog.title.other_tariff.camera': 'Для ваших камер услуга доступна на другом тарифном плане'
+
+  'fill_upgrade.dialog.message.other_tariff': 'Услуга «{serviceName:htmlstrip}» недоступна на тарифном плане «{tariffName:htmlstrip}». <br/>Чтобы воспользоваться этой услугой, смените ваш тарифный план, например, на «{switchTariffName:htmlstrip}»'
+
+  'fill_upgrade.dialog.message.other_tariff.camera': 'Услуга «{serviceName:htmlstrip}» недоступна для ваших камер на тарифном плане «{tariffName:htmlstrip}». <br/>Чтобы воспользоваться этой услугой, смените ваш тарифный план, например, на «{switchTariffName:htmlstrip}»'
+
+  'fill_upgrade.dialog.button.tariff': 'Настроить услуги'
+
+  'fill_upgrade.dialog.button.switch_tariff': 'Сменить тарифный план'
+
+  'camera_disabled.dialog.message': 'Услуга «{serviceName:htmlstrip}» недоступна для отключенных камер. <br/>Чтобы воспользоваться этой услугой, включите камеру на странице «Мои услуги».'
+
+  'camera_disabled.dialog.message.no_tariff': 'Услуга «{serviceName:htmlstrip}» недоступна для отключенных камер.'
+
+  'camera_disabled.dialog.button.tariff': 'Настроить услуги'
+
+  'all_server_cameras_disabled.dialog.message': 'Услуга «{serviceName:htmlstrip}» недоступна для отключенных камер. <br/>Чтобы воспользоваться этой услугой, включите камеры на странице «Мои услуги».'
+
+  'all_server_cameras_disabled.dialog.message.no_tariff': 'На бесплатных аккаунтах доступно не более 2 камер. Услуга «{serviceName:htmlstrip}» недоступна для отключенных камер.'
+
+  'all_server_cameras_disabled.dialog.button.tariff': 'Настроить услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.ServiceAccessManager.camera.php':
+
+  'select_camera_tariff.dialog.title': 'Услуга недоступна'
+
+  'select_camera_tariff.dialog.message': 'На этой камере нет активного тарифного плана. Необходимо подключить тариф.'
+
+  'select_camera_tariff.dialog.button.select': 'Выбрать тариф'
+
+  'select_another_camera_tariff.dialog.title': 'Услуга недоступна'
+
+  'select_another_camera_tariff.dialog.message': 'Эта услуга недоступна на текущем тарифе. Вы можете воспользоваться ею, подключив к этой камере другой тарифный план.'
+
+  'select_another_camera_tariff.dialog.button.select': 'Выбрать другой тариф'
+
+  'switch_to_business.dialog.title': 'Услуга недоступна'
+
+  'switch_to_business.dialog.message': 'Эта услуга доступна только на тарифах для бизнеса.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.ServiceAccessManager.php':
+
+  'error.internal.dialog.title': 'Услуга недоступна'
+
+  'contact_owner.dialog.title': 'Услуга недоступна'
+
+  'contact_owner.dialog.message': 'Чтобы воспользоваться услугой «{serviceName:htmlstrip}», свяжитесь с владельцем камеры.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.views.CameraPublishWizard.php':
+
+  'public_access_archive_switch.label.description': 'Мы постарались сделать сервис предоставления публичного доступа к видеоархиву максимально качественным и надежным. Тем не менее в данный момент услуга находится в бета-тестировании и предоставляется «как есть».'
+
+  'public_access_archive_switch.archive_service_unavailable': 'Услуга "{serviceName:htmlstrip}" недоступна.'
+
+  'professional_services_unavailable': 'Если вам требуются расширенные возможности для публичной трансляции видео с вашей камеры, обратите внимание на тариф «Видеотрансляция».'
+
+  'public_archive_only_available_with_logo_enabled': 'Публичный доступ к видеоархиву предоставляется только при условии присутствия в плеере логотипа {:brand_name}, так как данная услуга является дорогой для компании и мы компенсируем наши издержки присутствием нашего бренда в качестве небольшой рекламы.'
+
+  'public_archive_only_available_with_cloud_archive_enabled': 'Внимание! Публичный доступ к видеоархиву возможен только при наличии подключенной услуги хранения записей в облаке. В данный момент эта услуга не подключена.'
+
+  'broadcasting_plan_suggestion': 'Если вам требуются расширенные возможности для публичной трансляции видео с вашей камеры — обратите внимание на тарифный план «Видеотрансляция».'
+
+  'change_plan_button.text': 'Сменить тарифный план'
+
+  'configure_services_button.text': 'Настроить услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.views.CameraVideoView.AccessLimitsIdleDialog.php':
+
+  'dialog.tariff_limits.no_camera_tariff.message': 'Пожалуйста, <a class="iv-link b-select-camera-tariff" href="javascript:void(0)">выберите тарифный план</a> для этой камеры.'
+
+  'dialog.tariff_limits.camera_disabled.message': 'Включите камеру на странице «<a class="iv-link" href="{:url(billing/tariff)}">Мои услуги</a>».'
+
+  'dialog.tariff_limits.not_enough_money.title': 'Оказание услуг приостановлено'
+
+  'dialog.tariff_limits.not_enough_money.message': 'Недостаточно средств для оплаты услуг. Пожалуйста, <a class="iv-link" href="{:url(billing/fill)}">пополните баланс</a> или <a class="iv-link" href="{:url(billing/tariff)}">измените набор используемых услуг</a>.'
+
+  'dialog.tariff_limits.not_enough_money.title.no_fill': 'Оказание услуг приостановлено'
+
+  'dialog.tariff_limits.not_enough_money.message.no_fill': 'Недостаточно средств для оплаты услуг. Пожалуйста, пополните баланс или <a class="iv-link" href="{:url(billing/tariff)}">измените набор используемых услуг</a>.'
+
+  'dialog.tariff_limits.not_enough_money.title.no_tariff': 'Оказание услуг приостановлено'
+
+  'dialog.tariff_limits.not_enough_money.message.no_tariff': 'Недостаточно средств для оплаты услуг. Пожалуйста, <a class="iv-link" href="{:url(billing/fill)}">пополните баланс</a>.'
+
+  'dialog.tariff_limits.not_enough_money.title.no_tariff.no_fill': 'Оказание услуг приостановлено'
+
+  'dialog.tariff_limits.service_unavailable.title': 'Услуга недоступна'
+
+  'dialog.tariff_limits.service_unavailable.message': 'Эта услуга недоступна. Пожалуйста, свяжитесь с нашей Службой технической поддержки, если вы считаете, что это ошибка.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.views.CameraVideoView.php':
+
+  'archive-record-unavailable-message.description.change-plan': 'Для просмотра выбранного отрезка локального архива смените тариф.'
+
+  'archive-record-unavailable-message.button.change-plan': 'Сменить тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.views.VideoAbuseDialog.php':
+
+  'abuse.disclaimer': '<span class="iv-nowrap">Сервис «{serviceName}»</span> <b>не&nbsp;является владельцем камеры</b> и&nbsp;предоставляет только услуги трансляции <span class="iv-nowrap">онлайн-видео</span>. Постарайтесь связаться напрямую с&nbsp;<b>владельцем камеры</b> по&nbsp;вопросам качества изображения, направления камеры, отсутствия изображения.'
+
+  'abuse.disclaimer.with_comments': '<span class="iv-nowrap">Сервис «{serviceName}»</span> <b>не&nbsp;является владельцем камеры</b> и&nbsp;предоставляет только услуги трансляции <span class="iv-nowrap">онлайн-видео</span>. Пожелания по&nbsp;качеству изображения, направлению камеры, отсутствию изображения оставляйте в&nbsp;<b>комментариях под видео</b>&nbsp;— так их&nbsp;сможет увидеть владелец камеры.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/ivideon.views.VideoEmbedDialog.php':
+
+  'public_info.tv.title_hint': 'Ivideon TV — каталог камер, открытых нашими пользователями для публичного просмотра. <a class="iv-link" href="{tv_home_url}" target="_blank">Подробнее…</a><br/>Вы можете исключить публичную камеру из Ivideon TV на странице «<a class="iv-link" href="{:url(billing/tariff)}">Мои услуги</a>».<br/>Мы оставляем за собой право блокировки публичного доступа к данной камере, если её описание окажется недостоверным.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.alert-inputs.php':
+
+  'bindings-grid.cloud-archive-service-alert.message': 'Тариф этой камеры не поддерживает запись архива в облако.'
+
+  'bindings-grid.cloud-archive-service-alert.button': 'Выбрать тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.anpr.modals.cameras.add.php':
+
+  'modals.cameras.add.sections.plan.title': 'Выберите тариф'
+
+  'modals.cameras.add.sections.plan.description': 'Камера с распознаванием номеров уже подключена к {:brand_name}, осталось применить к ней тариф.'
+
+  'modals.cameras.add.sections.plan.button': 'Выбрать тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.app-menu.php':
+
+  'items.billing.plan.label': 'Мои услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.billing.pages.transaction-history.php':
+
+  'shared.operation-type.camera-plan-buy': 'Оплата тарифа'
+
+  'grid.cells.description.refund': 'Возврат денег при отмене тарифа {planName} на камере {cameraName}.'
+
+  'grid.cells.description.camera-plan-buy': 'Активация тарифа {planName} для камеры {cameraName} на {period}.'
+
+  'grid.cells.description.camera-plan-prolong': 'Продление тарифа {planName} для камеры {cameraName} на {period}.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.camera-cloud-recording-settings.steps.recording-mode.php':
+
+  'steps.recording-mode.sections.info.about-plan.not-available-for-current-plan.label': 'Настройка режима записи в облако недоступна на тарифе {plan_name}'
+
+  'steps.recording-mode.sections.info.about-plan.not-available-for-current-plan.value': 'Изменить тариф'
+
+  'steps.recording-mode.sections.info.about-plan.available-only-for-business-account.label': 'Настройка записи в облако доступна только на тарифах для бизнеса'
+
+  'steps.recording-mode.sections.info.about-plan.available-only-for-business-account.value': 'Перейти на тарифы для бизнеса'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.camera-notification-settings.php':
+
+  'unavailable-message.description.camera-disabled': 'Услуга недоступна для отключенных камер.<br/>Чтобы воспользоваться этой услугой, включите камеру на странице «Мои услуги».'
+
+  'unavailable-message.description.not-enough-money': 'Услуга недоступна из-за недостатка средств на вашем счёте.<br/>Чтобы воспользоваться этой услугой, пополните баланс на странице «Мой счёт».'
+
+  'unavailable-message.description.select-another-tariff': 'Услуга недоступна на текущем тарифе.'
+
+  'unavailable-message.buttons.select-tariff': 'Выбрать тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.cameras.dashboard.php':
+
+  'dashboard.summary.disk-usage-summary.tooltip': '
+
+    Несколько способов снизить потребление облачного хранилища:<br /><br />
+
+    <ol>
+
+    <li>Понизить битрейт (раздел <b>Видео</b> в настройках камеры);</li>
+
+    <li>Отрегулировать настройки детекторов движения и звука, чтобы снизить число ложных срабатываний;</li>
+
+    <li>Подключить тарифный план с большим объёмом облачного хранилища.</li>
+
+    </ol>
+
+
+    '
+  'dashboard.summary.billing-summary.tooltip.content': '
+
+    <ul>
+
+    <li>Автопродление подписок на тарифы производится, если у вас достаточно средств на счету или привязанной карте.</li>
+
+    <li>Автопродление подключается по умолчанию при покупке тарифа. Если вы отключали эту опцию, вам придется продлить подписку вручную.</li>
+
+    <li>Для оплаты подписок, завершающихся до {date}, вам {paymentAmount:plural(необходим,необходимо,необходимо,необходимо)} {paymentAmount} Пожалуйста, удостоверьтесь, что на счету вашего аккаунта или на привязанной карте {card} достаточно средств.</li>
+
+    </ul>
+
+
+    '
+  'dashboard.details.disk-usage.excessive.columns.storage-size': 'Объём по тарифу'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.cameras.shared.services.context-menu.php':
+
+  'server.action.camera-plans.text': 'Тарифный план'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.cashboxes.help.php':
+
+  'sections.tuning.description': 'В разделе «Настройки» вы можете привязать к установленным кассам подходящие камеры. К камере должен быть подключен тариф {:brand_name} для записи видео в облачное хранилище. После привязки перейдите в раздел «Поиск» для проверки кассового узла.'
+
+  'sections.tuning.items.0.text': 'Чем больше расстояние от камеры видеонаблюдения до кассовой зоны, тем меньшее значение угла обзора должна иметь видеокамера. Рекомендуем использовать камеры с углом обзора 60 градусов, расстояние от камеры до кассы должно составлять 3,5-4,5 метра, разрешение матрицы — 2-4 мегапикселя, а частота записи — 25 кадров в секунду. Для привязки к кассе камера должна быть подключена к активному облачному тарифу {:brand_name}, минимальная глубина архива должна соответствовать периодичности анализа требующих внимания чеков. Рекомендованная глубина архива — 1 месяц.'
+
+  'sections.tuning.items.1.problems.1.solution': 'Проверьте, активен ли тариф камеры, привязанной к кассе. Если напротив пункта «Постоянная запись» не стоит галочка, поставьте её.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.cashboxes.search.php':
+
+  'screens.tune.desc': 'Для корректного функционирования системы, небоходимо оплатить тариф для кассы.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.cashboxes.settings.php':
+
+  'buttons.payment_required': '{n:plural({n} касса,{n} кассы,{n} касс,{n} кассы)} без тарифа'
+
+  'settings.grid.cells.plan.title': 'Тариф кассы'
+
+  'evotor.settings.grid.cells.plan.title': 'Тариф камеры'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.contracts.acts.list.php':
+
+  'title': 'Акты об оказанных услугах'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.contracts.php':
+
+  'apply.form.title.contract': 'Заявка на заключение договора оказания услуг видеонаблюдения'
+
+  'apply.form.title.public_offer': 'Заявка на присоединение к договору оферты на оказание услуг видеонаблюдения'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.contracts.status.contract.php':
+
+  'requirements_unfulfilled': "Вы можете заключить с нами договор на оказание услуг видеонаблюдения, если:
+
+    \t\t<ul>
+
+    \t\t\t<li>вы представляете юридическое лицо;</li>
+
+    \t\t\t<li>в настройках своего аккаунта вы выбрали Россию.</li>
+
+    \t\t</ul>
+
+    \t\tЭто позволит вам производить оплату услуг на расчётный счёт, а также получать закрывающие документы."
+
+  'none': 'Если вы хотите производить оплату нашего сервиса через расчётный счёт и получать закрывающие бухгалтерские документы, вам необходимо заключить с нами договор на оказание услуг видеонаблюдения.'
+
+  'none.paymentgate.tinkoff': 'Чтобы проводить платежи через Тинькофф Бизнес, вам необходимо заключить договор на оказание услуг видеонаблюдения. Это позволит вам получать закрывающие бухгалтерские документы по проведённым платежам.'
+
+  'abandoned': 'Вы отменили заключение договора на оказание услуг видеонаблюдения. Вы можете подать заявку на заключение договора повторно.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.contracts.status.public_offer.php':
+
+  'requirements_unfulfilled': "Вы можете присоединиться к договору оферты на оказание услуг видеонаблюдения, если:
+
+    \t\t<ul>
+
+    \t\t\t<li>вы представляете юридическое лицо;</li>
+
+    \t\t\t<li>в настройках своего аккаунта вы выбрали Россию.</li>
+
+    \t\t</ul>
+
+    \t\tОзнакомиться с публичной офертой вы можете {offer_link_}на нашем сайте{_offer_link}."
+
+  'requirements_unfulfilled.b4': 'Для присоединения к договору оферты необходимо перейти на актуальную тарифную линейку. Чтобы сделать это, обратитесь в техническую поддержку по адресу {support_email}.'
+
+  'none': 'Если вы хотите производить оплату нашего сервиса через расчётный счёт и получать закрывающие бухгалтерские документы, вам необходимо присоединиться к договору оферты на оказание услуг видеонаблюдения.<br/><br/>Ознакомиться с публичной офертой вы можете {offer_link_}на нашем сайте{_offer_link}.'
+
+  'none.paymentgate.tinkoff': 'Чтобы проводить платежи через Тинькофф Бизнес, вам необходимо присоединиться к договору оферты на оказание услуг видеонаблюдения. Это позволит вам получать закрывающие бухгалтерские документы по проведённым платежам.'
+
+  'abandoned': 'Вы отменили присоединение к договору оферты на оказание услуг видеонаблюдения. Вы можете подать заявку на заключение договора повторно.<br/><br/>Ознакомиться с публичной офертой вы можете {offer_link_}на нашем сайте{_offer_link}.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.faces.modals.help.php':
+
+  'item.no-detections.text': '
+
+    <b>Что делать:</b>
+
+    <ul>
+
+    <li>проверить, что тариф оплачен;</li>
+
+    <li>проверить настройки аналитики на локальном сервере (если тип подключения через {:server_app_name});</li>
+
+    <li>уменьшить порог качества;</li>
+
+    <li>уменьшить минимальный размер лица (доступно только для типа подключения через {:server_app_name});</li>
+
+    <li>увеличить область детекции.</li>
+
+    </ul>
+
+
+    '
+'www/protected/l10n/messages/{lang}/my.main-controller.php':
+
+  'account.view_tariffs-disabled.dialog.title': 'Управление услугами отключено'
+
+  'account.view_tariffs-disabled.dialog.message': 'Управление услугами в этом аккаунте отключено. Если вы считаете, что это ошибка, пожалуйста, свяжитесь со Службой технической поддержки.'
+
+  'access_manager.empty.message': 'Услуга «Передача прав» недоступна ни на одной из выбранных камер.'
+
+  'access_manager.empty.message.server_no_eligible_cameras': 'На этом сервере нет ни одной камеры, права на которую можно передать другим пользователям. На странице «<a class="iv-link" href="{:url(billing/tariff)}">Мои услуги</a>» вы можете проверить, доступна ли на камерах этого сервера услуга передачи прав.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.modules.shared.pages.settings.php':
+
+  'settings.page.actions.camera-plan-manager': 'Настройка тарифов'
+
+  'settings.page.actions.camera-plan-manager.not-paid': '{count:plural({count} камера, {count} камеры, {count} камер, {count} камер)} без тарифа'
+
+  'settings.grid.cells.camera-plan.title': 'Тариф'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.PaymentCardView.php':
+
+  'save_card_info.autoprolong': 'Для вашего удобства мы можем автоматически продлевать установленный вами тарифный план за несколько дней до его окончания, производя автоматический платёж с использованной вами банковской карты. Перед продлением мы обязательно пришлём уведомление. Вы можете отключить автоматическое продление в любой момент либо в личном кабинете, либо прислав нам запрос на {:support_email_link}.'
+
+  'save_card_info.save': 'Для вашего удобства мы можем использовать сохранённые вами карты для автоматического продления ваших тарифов за несколько дней до их окончания. Перед продлением мы обязательно пришлём уведомление. Вы можете отключить автоматическое продление в любой момент либо в личном кабинете, либо прислав нам запрос на {:support_email_link}.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.shared.camera-plan-status.php':
+
+  'plan-status.not-set': 'Тариф не выбран'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.shared.rights.share.php':
+
+  'steps.error.errors.INACTIVE_SERVICE.title': 'Услуга передачи прав не включена на этой камере'
+
+  'additional_info.service_unavailable': 'Услуга недоступна'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.shared.wizards.php':
+
+  'info.contact_service_provider.title': 'Обратитесь к провайдеру сервиса для подключения услуги'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/my.visitor-counter.modals.help.php':
+
+  'section.connection-types.description': 'Существует два основных способа подключения услуги — через облако с любой камеры и через специальное устройство со встроенной аналитикой.'
+
+  'item.no-counting.description': "
+
+    \t\t<p><b>Что делать:</b></p>
+
+    \t\t<ul>
+
+    \t\t\t<li>проверить, что тариф оплачен;</li>
+
+    \t\t\t<li>проверить высоту установки и размещение камеры;</li>
+
+    \t\t\t<li>проверить освещение;</li>
+
+    \t\t\t<li>разметить линии пересечения;</li>
+
+    \t\t\t<li>проверить средний размер объекта;</li>
+
+    \t\t\t<li>убрать области исключения.</li>
+
+    \t\t</ul>
+
+    \t"
+
+  'item.method-device.description': "
+
+    \t\t<p>
+
+    \t\t\tПри покупке специального устройства {:brand_name} People Counter 3D в личном кабинете станут доступны отдельные тарифы для него.
+
+    \t\t\t<br>Edge-устройства не зависят от интернета и обеспечивают более точный подсчёт, при этом стоят дороже.
+
+    \t\t</p>
+
+    \t"
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/notifications.php':
+
+  'personal-cloud-10-discount>2020-05': 'Специально для Вас! Подключите тариф <b>Облачный 10</b> до {date} и используйте облачное хранение всего за {cost}!'
+
+  'personal-plans-deprecation-2021-04': 'Уважаемые пользователи! С {date} на вашем аккаунте изменяются условия предоставления услуг. С новыми тарифами вы можете ознакомиться {link_}по ссылке{_link}. Полное описание изменений было отправлено на ваш email.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/settings.php':
+
+  'billing_type_switch.title.tariffs_account': 'Перейти на Профессиональный тариф'
+
+  'billing_type_switch.title.tariffs_camera': 'Перейти на стандартные тарифы'
+
+  'billing_type_switch.success.tariffs_account': 'Ваш аккаунт был переведён на тарифный план <b>Профессиональный</b>.'
+
+  'billing_type_switch.success.tariffs_camera': 'Ваш аккаунт был переведён на стандартные тарифные планы.'
+
+  'billing_type_switch.success.refund': 'На ваш счет было возвращено <b>{amount}</b> за неиспользованные услуги.'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/transaction_history.php':
+
+  'operation.tariff>activate': 'Активация тарифа {tariff} для видеосервера {server}'
+
+  'operation.tariff>reactivate': 'Автоматическая повторная активация тарифа {tariff} для видеосервера {server}'
+
+  'partner.dec_types.default': 'Дополнительные услуги'
+
+  'operation.services>activate': 'Активация услуг (тариф <em>{tariff}</em>)'
+
+  'operation.services>reactivate': 'Повторная активация услуг (тариф <em>{tariff}</em>)'
+
+  'operation.services>prolong': 'Абонентская плата (тариф <em>{tariff}</em>)'
+
+  'operation.cam_tariff>buy': 'Активация тарифа <em>{tariff}</em> для камеры <em>{camera}</em> (<em>{server}</em>) на <em>{period}</em>.'
+
+  'operation.cam_tariff>prolong': 'Продление тарифа <em>{tariff}</em> для камеры <em>{camera}</em> (<em>{server}</em>) на <em>{period}</em>.'
+
+  'operation.cam_tariff>deactivate': 'Возврат денег при отмене тарифа <em>{tariff}</em> на камере <em>{camera}</em> (<em>{server}</em>).'
+
+# --------------------------------------------------------------------------------------------------
+
+'www/protected/l10n/messages/{lang}/tv.php':
+
+  'feature-9.text': 'У&nbsp;вас есть своя клиентская база, но&nbsp;нет услуги видеонаблюдения? Наша партнерская программа станет вашим преимуществом перед конкурентами.'
